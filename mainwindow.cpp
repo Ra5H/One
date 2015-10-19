@@ -66,6 +66,7 @@ void MainWindow::onCountCahnged()
 void MainWindow::generate()
 {
     int count = ui->countEdit->text().toInt();
+    qDebug() << QString("count: %1").arg(count);
     ui->progressBar->setValue(0);
     ui->progressBar->setRange(0, count);
     Packet pack;
