@@ -504,3 +504,4 @@ int MainWindow::matchsCount(const Coupon &c1, const Coupon &c2) const
     return res;
 }
 
+
